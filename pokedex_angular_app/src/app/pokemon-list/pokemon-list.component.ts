@@ -5,11 +5,6 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './pokemon-list.component.html',
   styleUrls: ['./pokemon-list.component.sass']
 })
-export class PokemonListComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class PokemonListComponent {
+    pokemons = [1, 2, 3, 4];
 }
